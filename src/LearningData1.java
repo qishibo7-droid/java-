@@ -32,8 +32,5 @@ public class LearningData1 {
         b=a;   //byte -> short 是“小范围 -> 大范围”，自动完成
         System.out.println(b);
         //隐形转化的要求：目标类型的范围 >= 源类型的范围，即只允许“小范围 -> 大范围”
-        //拓宽方向：byte -> short -> int -> long -> float -> double
-        //注意：Java 的所有整数类型都是有符号的，没有 unsigned 类型，
-        //所以“双方符号性要一致”是 C/C++ 的规则，在 Java 里这条不成立。
     }
 }
