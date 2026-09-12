@@ -32,30 +32,24 @@
 
 | 日期 | 内容 | 对应代码 | 详细笔记 |
 |---|---|---|---|
-| 2026-09-11 | Java 基础语法结构、基本数据类型与取值范围、二进制补码、与 Python 的对比 | `src/01-basics/LearningData1.java` | [学习记录](notes/2026-09-11-学习记录.md) |
-| 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转 | `src/02-data-types/LearningData2.java`、`src/02-data-types/LearningData3.java` | [学习记录](notes/2026-09-12-学习记录.md) |
+| 2026-09-11 | Java 基础语法结构、基本数据类型与取值范围、二进制补码、与 Python 的对比 | `src/LearningData1.java` | [学习记录](notes/2026-09-11-学习记录.md) |
+| 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转 | `src/LearningData2.java`、`src/LearningData3.java` | [学习记录](notes/2026-09-12-学习记录.md) |
 
 ---
 
 ## 三、仓库结构
 
-代码按**知识点**分类，笔记按**日期**归档：
-
 ```
 java-/
-├── README.md                          本文件：进度总览与导航
+├── README.md                       本文件：进度总览与导航
 ├── src/
-│   ├── 01-basics/                     基础语法结构
-│   │   └── LearningData1.java         类与 main 方法、注释、变量与基本数据类型
-│   └── 02-data-types/                 数据类型
-│       ├── LearningData2.java         float / double 与浮点精度
-│       └── LearningData3.java         char 字符类型与转义字符
+│   ├── LearningData1.java          基础语法与基本数据类型
+│   ├── LearningData2.java          浮点类型与精度问题
+│   └── LearningData3.java          char 字符类型与转义字符
 └── notes/
     ├── 2026-09-11-学习记录.md
     └── 2026-09-12-学习记录.md
 ```
-
-后续按学习进度继续编号新增分类，例如 `03-operators`（运算符与流程控制）、`04-arrays`（数组）、`05-oop`（面向对象）、`06-collections`（集合）、`07-exceptions`（异常）、`08-io`（文件与IO）、`09-threading`（多线程）。
 
 ---
 
