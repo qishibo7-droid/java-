@@ -33,7 +33,7 @@
 | 日期 | 内容 | 对应代码 | 详细笔记 |
 |---|---|---|---|
 | 2026-09-11 | Java 基础语法结构、基本数据类型与取值范围、二进制补码、与 Python 的对比 | `src/LearningData1.java` | [学习记录](notes/2026-09-11-学习记录.md) |
-| 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转 | `src/LearningData2.java`、`src/LearningData3.java` | [学习记录](notes/2026-09-12-学习记录.md) |
+| 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转、二元数值提升与整数除法截断 | `src/LearningData2.java`、`src/LearningData3.java`、`src/LearningData4.java` | [学习记录](notes/2026-09-12-学习记录.md) |
 
 ---
 
@@ -45,7 +45,8 @@ java-/
 ├── src/
 │   ├── LearningData1.java          基础语法与基本数据类型
 │   ├── LearningData2.java          浮点类型与精度问题
-│   └── LearningData3.java          char 字符类型与转义字符
+│   ├── LearningData3.java          char 字符类型与转义字符
+│   └── LearningData4.java          二元数值提升、整数除法与字符串拼接
 └── notes/
     ├── 2026-09-11-学习记录.md
     └── 2026-09-12-学习记录.md
