@@ -69,26 +69,7 @@ java-/
 
 ---
 
-## 五、如何运行
-
-```bash
-# 单文件直接运行（JDK 11+ 支持）
-java src/LearningData1.java
-
-# 或先编译再运行
-javac -encoding UTF-8 -d out src/LearningData1.java
-java -cp out LearningData1
-```
-
-**预期输出**：
-
-```
-127
-```
-
----
-
-## 六、说明
+## 五、说明
 
 - 提交信息使用中文，格式参照 `feat:` / `fix:` / `docs:` / `chore:` 前缀，便于回溯每个阶段做了什么。
 - 学习记录存放在 `notes/` 目录，命名格式为 `YYYY-MM-DD-学习记录.md`。
