@@ -35,6 +35,7 @@
 | 2026-09-11 | Java 基础语法结构、基本数据类型与取值范围、二进制补码、与 Python 的对比 | `src/LearningData1.java` | [学习记录](notes/2026-09-11-学习记录.md) |
 | 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转、二元数值提升与整数除法截断 | `src/LearningData2.java`、`src/LearningData3.java`、`src/LearningData4.java` | [学习记录](notes/2026-09-12-学习记录.md) |
 | 2026-09-13 | 自增自减、复合赋值运算符、位运算符与位移、关系与逻辑运算符、短路与非短路、运算符优先级 | `src/LearningData5.java`、`src/LearningData6.java`、`src/LearningData7.java` | [学习记录](notes/2026-09-13-学习记录.md) |
+| 2026-09-14 | 代码块作用域、if/else if/else 选择结构、switch 与 break 穿透 | `src/LearningData8.java` | [学习记录](notes/2026-09-14-学习记录.md) |
 
 ---
 
@@ -50,11 +51,13 @@ java-/
 │   ├── LearningData4.java          二元数值提升、整数除法与字符串拼接
 │   ├── LearningData5.java          自增自减与复合赋值运算符
 │   ├── LearningData6.java          位运算符与位移
-│   └── LearningData7.java          关系、逻辑运算符与三元运算符
+│   ├── LearningData7.java          关系、逻辑运算符与三元运算符
+│   └── LearningData8.java          代码块作用域与选择结构（if / switch）
 └── notes/
     ├── 2026-09-11-学习记录.md
     ├── 2026-09-12-学习记录.md
-    └── 2026-09-13-学习记录.md
+    ├── 2026-09-13-学习记录.md
+    └── 2026-09-14-学习记录.md
 ```
 
 ---
