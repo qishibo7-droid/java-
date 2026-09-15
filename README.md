@@ -36,6 +36,7 @@
 | 2026-09-12 | 浮点类型 float/double 与精度问题、char 字符类型与转义字符、byte 与 char 不可互转、二元数值提升与整数除法截断 | `src/LearningData2.java`、`src/LearningData3.java`、`src/LearningData4.java` | [学习记录](notes/2026-09-12-学习记录.md) |
 | 2026-09-13 | 自增自减、复合赋值运算符、位运算符与位移、关系与逻辑运算符、短路与非短路、运算符优先级 | `src/LearningData5.java`、`src/LearningData6.java`、`src/LearningData7.java` | [学习记录](notes/2026-09-13-学习记录.md) |
 | 2026-09-14 | 代码块作用域、if/else if/else 选择结构、switch 与 break 穿透 | `src/LearningData8.java` | [学习记录](notes/2026-09-14-学习记录.md) |
+| 2026-09-15 | switch 表达式（箭头语法、yield）、for 循环三要素、浮点数的相等比较 | `src/LearningData9.java`、`src/LearningData10.java` | [学习记录](notes/2026-09-15-学习记录.md) |
 
 ---
 
@@ -44,7 +45,7 @@
 ```
 java-/
 ├── README.md                       本文件：进度总览与导航
-├── src/
+├── src/                            按学习顺序写的代码，扁平存放
 │   ├── LearningData1.java          基础语法与基本数据类型
 │   ├── LearningData2.java          浮点类型与精度问题
 │   ├── LearningData3.java          char 字符类型与转义字符
@@ -52,12 +53,20 @@ java-/
 │   ├── LearningData5.java          自增自减与复合赋值运算符
 │   ├── LearningData6.java          位运算符与位移
 │   ├── LearningData7.java          关系、逻辑运算符与三元运算符
-│   └── LearningData8.java          代码块作用域与选择结构（if / switch）
-└── notes/
+│   ├── LearningData8.java          代码块作用域与选择结构（if / switch）
+│   ├── LearningData9.java          switch 表达式（箭头语法与 yield）
+│   └── LearningData10.java         循环结构（for）
+├── summary/                        知识小结，回顾用（只有注释，没有 main）
+│   └── class1.java                 数据类型与浮点数要点小结
+├── practice/                       练习题与配套的解题过程总结
+│   ├── example.java                练习题代码：强制类型转换与 IEEE 754 编码
+│   └── example-解题过程.md         这道题的通用解题步骤与结论
+└── notes/                          每日学习记录
     ├── 2026-09-11-学习记录.md
     ├── 2026-09-12-学习记录.md
     ├── 2026-09-13-学习记录.md
-    └── 2026-09-14-学习记录.md
+    ├── 2026-09-14-学习记录.md
+    └── 2026-09-15-学习记录.md
 ```
 
 ---
@@ -77,3 +86,4 @@ java-/
 - 提交信息使用中文，格式参照 `feat:` / `fix:` / `docs:` / `chore:` 前缀，便于回溯每个阶段做了什么。
 - 学习记录存放在 `notes/` 目录，命名格式为 `YYYY-MM-DD-学习记录.md`。
 - `out/`、`.idea/`、`*.iml`、`*.bak` 均已在 `.gitignore` 中排除，不入库。
+- `summary/` 存放回顾性的知识小结，`practice/` 存放练习题代码与配套的解题过程总结；`src/` 只放按学习顺序写的代码，保持扁平。

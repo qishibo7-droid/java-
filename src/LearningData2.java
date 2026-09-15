@@ -33,5 +33,9 @@ public class LearningData2 {
          但 float 的「精度」不如 long（23 位尾数 vs 63 位数值），超出部分直接丢失。
          结论：范围够 ≠ 精度够
          */
+        boolean Data= (0.3F==0.1F+0.2F);
+        System.out.println(Data);
+        //永远不要直接用==去对比两个浮点树，因为精度问题，在java中
+
     }
 }
