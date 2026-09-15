@@ -56,8 +56,8 @@ java-/
 │   ├── LearningData8.java          代码块作用域与选择结构（if / switch）
 │   ├── LearningData9.java          switch 表达式（箭头语法与 yield）
 │   └── LearningData10.java         循环结构（for）
-├── summary/                        知识小结，回顾用（只有注释，没有 main）
-│   └── class1.java                 数据类型与浮点数要点小结
+├── summary/                        知识小结，回顾用（Markdown 格式）
+│   └── class1.md                   数据类型与浮点数要点小结
 ├── practice/                       练习题与配套的解题过程总结
 │   ├── example.java                练习题代码：强制类型转换与 IEEE 754 编码
 │   └── example-解题过程.md         这道题的通用解题步骤与结论
@@ -86,4 +86,4 @@ java-/
 - 提交信息使用中文，格式参照 `feat:` / `fix:` / `docs:` / `chore:` 前缀，便于回溯每个阶段做了什么。
 - 学习记录存放在 `notes/` 目录，命名格式为 `YYYY-MM-DD-学习记录.md`。
 - `out/`、`.idea/`、`*.iml`、`*.bak` 均已在 `.gitignore` 中排除，不入库。
-- `summary/` 存放回顾性的知识小结，`practice/` 存放练习题代码与配套的解题过程总结；`src/` 只放按学习顺序写的代码，保持扁平。
+- `summary/` 存放回顾性的知识小结（Markdown 格式，不保留 java 文件），`practice/` 存放练习题代码与配套的解题过程总结；`src/` 只放按学习顺序写的代码，保持扁平。
