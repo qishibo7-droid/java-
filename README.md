@@ -37,6 +37,7 @@
 | 2026-09-13 | 自增自减、复合赋值运算符、位运算符与位移、关系与逻辑运算符、短路与非短路、运算符优先级 | `src/LearningData5.java`、`src/LearningData6.java`、`src/LearningData7.java` | [学习记录](notes/2026-09-13-学习记录.md) |
 | 2026-09-14 | 代码块作用域、if/else if/else 选择结构、switch 与 break 穿透 | `src/LearningData8.java` | [学习记录](notes/2026-09-14-学习记录.md) |
 | 2026-09-15 | switch 表达式（箭头语法、yield）、for 循环三要素、浮点数的相等比较 | `src/LearningData9.java`、`src/LearningData10.java` | [学习记录](notes/2026-09-15-学习记录.md) |
+| 2026-09-16 | break 与 continue、嵌套循环与标记、while 与 do-while、死循环写法 | `src/LearningData11.java` | [学习记录](notes/2026-09-16-学习记录.md) |
 
 ---
 
@@ -55,7 +56,8 @@ java-/
 │   ├── LearningData7.java          关系、逻辑运算符与三元运算符
 │   ├── LearningData8.java          代码块作用域与选择结构（if / switch）
 │   ├── LearningData9.java          switch 表达式（箭头语法与 yield）
-│   └── LearningData10.java         循环结构（for）
+│   ├── LearningData10.java         循环结构（for）
+│   └── LearningData11.java         break/continue、标记与 while 循环
 ├── summary/                        知识小结，回顾用（Markdown 格式）
 │   └── class1.md                   数据类型与浮点数要点小结
 ├── practice/                       练习题与配套的解题过程总结
@@ -66,7 +68,8 @@ java-/
     ├── 2026-09-12-学习记录.md
     ├── 2026-09-13-学习记录.md
     ├── 2026-09-14-学习记录.md
-    └── 2026-09-15-学习记录.md
+    ├── 2026-09-15-学习记录.md
+    └── 2026-09-16-学习记录.md
 ```
 
 ---
