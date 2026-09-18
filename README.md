@@ -38,7 +38,7 @@
 | 2026-09-14 | 代码块作用域、if/else if/else 选择结构、switch 与 break 穿透 | `src/LearningData8.java` | [学习记录](notes/2026-09-14-学习记录.md) |
 | 2026-09-15 | switch 表达式（箭头语法、yield）、for 循环三要素、浮点数的相等比较 | `src/LearningData9.java`、`src/LearningData10.java` | [学习记录](notes/2026-09-15-学习记录.md) |
 | 2026-09-16 | break 与 continue、嵌套循环与标记、while 与 do-while、死循环写法 | `src/LearningData11.java` | [学习记录](notes/2026-09-16-学习记录.md) |
-| 2026-09-17 | 练习题：水仙花数（拆位与立方和）、乘法口诀表（双层循环与转义字符） | `practice/example1.java`、`practice/example2.java` | [学习记录](notes/2026-09-17-学习记录.md) |
+| 2026-09-17 | 练习题：水仙花数（拆位与立方和）、乘法口诀表（双层循环与转义字符）；Python 随机算例生成（快递投送模拟） | `practice/example1.java`、`practice/example2.java`、`practice/快递投送模拟.py` | [学习记录](notes/2026-09-17-学习记录.md) |
 
 ---
 
@@ -67,7 +67,9 @@ java-/
 │   ├── example1.java               练习题代码：水仙花数（拆位与立方和）
 │   ├── example1-解题过程.md        拆数字的通用过程与实测结果
 │   ├── example2.java               练习题代码：乘法口诀表（双层循环）
-│   └── example2-解题过程.md        打印类题目的通用过程与实测结果
+│   ├── example2-解题过程.md        打印类题目的通用过程与实测结果
+│   ├── 快递投送模拟.py             Python 源码：快递投送算例生成器
+│   └── 快递投送模拟-解题过程.md    四步流程与 Java 还原对照要点
 └── notes/                          每日学习记录
     ├── 2026-09-11-学习记录.md
     ├── 2026-09-12-学习记录.md
